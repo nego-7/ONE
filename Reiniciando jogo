@@ -3,6 +3,8 @@ let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
 function exibirTextoNaTela(tag, texto) {
+// ESSE COMANDO É PARA INTERAGIR COM O A TAG DENTRO DO HTML. 
+// CAMPO É NOME QUE ESTÁ NO HTML E TAG 
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
 }
